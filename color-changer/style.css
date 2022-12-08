@@ -1,0 +1,28 @@
+body {
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50vh;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  font-family: inherit;
+  background-color: #55c57a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(1);
+}

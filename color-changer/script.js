@@ -5,7 +5,6 @@ const btnHex = document.querySelector(".btn-hex");
 const body = document.querySelector("body");
 const heading = document.querySelector(".heading-secondary");
 const btnReset = document.querySelector(".btn-reset");
-// Array of colors
 const solidColors = ["red", "blue", "yellow", "aquamarine", "pink"];
 const hexColors = ["#e81cff", "#ff930f", "#fff95b", "#696eff", "#ff8989"];
 

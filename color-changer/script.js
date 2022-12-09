@@ -14,7 +14,7 @@ function changeSolidColor() {
   const colorOptions = parseInt(Math.random() * solidColors.length);
   body.style.backgroundColor = solidColors[colorOptions];
   heading.textContent = `You picked the ${solidColors[colorOptions]} color!`;
-  btnReset.classList.remove("hidden");
+  resetBtn();
 }
 
 // Function for hex colors
@@ -22,6 +22,11 @@ function changeHexColor() {
   const colorPicker = parseInt(Math.random() * hexColors.length);
   body.style.backgroundColor = hexColors[colorPicker];
   heading.textContent = `You picked a hex color - ${hexColors[colorPicker]}!`;
+  resetBtn();
+}
+
+// Display the reset button
+function resetBtn() {
   btnReset.classList.remove("hidden");
 }
 

@@ -3,8 +3,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  margin: 50vh;
+.heading {
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+.heading-main {
+  font-size: 4rem;
+}
+
+.heading-secondary {
+  font-size: 2rem;
 }
 
 .btn {
@@ -17,6 +28,10 @@ body {
   cursor: pointer;
 
   transition: all 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .btn:hover {
@@ -26,3 +41,9 @@ body {
 .btn:active {
   transform: scale(1);
 }
+
+/* .btn-solid {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+} */

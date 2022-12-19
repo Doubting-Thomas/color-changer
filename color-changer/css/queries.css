@@ -1,0 +1,11 @@
+@media (max-width: 37.5em) {
+  body {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  body {
+    width: 90rem;
+  }
+}
